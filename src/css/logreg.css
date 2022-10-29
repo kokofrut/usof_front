@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.reg-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.reg-form {
+    display: flex;
+    width: 70%;
+    height: 90%;
+    flex-direction: column;
+    
+  
+}
+
+.reg-form input{
+  border: 1px solid rgb(38, 35, 35);
+  background-color: #ffffff73;
+  height: 2em;
+  color: #000;
+  border-radius: 5px;
+  margin: 20px 0;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+.reg-form label{
+  font-size: 13px;
+  color: #000;
+  font-family: 'Rubik', sans-serif;
+  /* background-color:antiquewhite; */
+  width: fit-content;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+.reg-box {
+  width: 25vw;
+  min-height: 50vh;
+  height: auto;
+  border-radius: 80px 40px 80px 40px;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px 0 30px 0;
+  padding: 20px 0;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgb(56, 56, 56);
+  filter: drop-shadow(-4px 4px 1px rgb(47, 43, 39, 0.5));
+  background-color: #ffffffac;
+  
+}
+
+
+.form-buttons {
+  display: flex;
+  height: 3rem;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  
+}
+.form-buttons button {
+  display: flex;
+  width: -webkit-fill-available;
+  height: 2.5rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+  margin: 0 0.5rem 0 0.5rem
+}

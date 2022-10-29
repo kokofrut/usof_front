@@ -1,0 +1,38 @@
+.edit-menu-container {
+    margin-top: 8vh;
+}
+
+.edit-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 7%;
+}
+
+tbody {
+    width: 100%;
+}
+tr {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+textarea {
+    min-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.table-searchP {
+    padding: 2rem;
+    margin: 0.2rem 0;
+    display: flex;
+    justify-content: center;
+    min-width: 670px;
+    width: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(56, 56, 56);
+    filter: drop-shadow(-4px 4px 1px rgb(47, 43, 39, 0.5));
+    background-color: #ffffffac;
+}

@@ -1,0 +1,85 @@
+.admin-menu {
+    margin-top: 8vh;
+    height: 82vh;
+    width: 100%;
+    overflow: auto;
+}
+
+.admin-search-input {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 26%;
+}
+.admin-search-input input{
+    border-radius: 5px;
+    border: 1px solid rgb(153, 141, 117);
+    padding: 5px;
+    width: 70%;
+}
+table input {
+    border-radius: 5px;
+    border: 1px solid rgb(153, 141, 117);
+    padding: 5px;
+}
+td {
+    display: flex;
+    align-items: center;
+}
+tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+tbody label {
+    width: 70px;
+}
+.sett-labels {
+    padding: 10px;
+}
+.admin-search-input button, table button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4em;
+    height: 2rem;
+}
+.admin-search-user {
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+    border-radius: 10px;
+    padding: 6rem 0rem;
+    border: 1px solid black;
+    
+    background: radial-gradient(circle, rgba(254,238,219,0.5) 60%, rgba(190,190,190,0.5) 100%),
+    url(../src/bg1.svg);
+}
+
+.table-searchU {
+    padding: 2rem;
+    margin: 0.5rem auto;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(56, 56, 56);
+    filter: drop-shadow(-4px 4px 1px rgb(47, 43, 39, 0.5));
+    background-color: #ffffffac;
+}
+
+.admin-search-post {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+    transition: all 1s ease-in-out;
+    border-radius: 10px;
+    padding: 6rem 0rem;
+    border: 1px solid black;
+    background: radial-gradient(circle, rgba(254,238,219,0.5) 60%, rgba(190,190,190,0.5) 100%), url(../src/bg1.svg);
+}
